@@ -53,10 +53,10 @@ export default async () => {
       { text: 'Archives', link: '/archives' },
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/clark-cui', ariaLabel: 'GitHub' },
+      { icon: 'github', link: 'https://github.com/chentianxiong123', ariaLabel: 'GitHub' },
       { icon: 'twitter', link: 'https://twitter.com/qingshuihe1', ariaLabel: 'Twitter' },
       { icon: { svg: EMAIL_ICON_SVG }, link: 'mailto:rongchuancui@gmail.com', ariaLabel: 'Email' },
-      { icon: { svg: RSS_ICON_SVG }, link: 'https://clarkcui.men/feed.xml', ariaLabel: 'RSS' },
+      { icon: { svg: RSS_ICON_SVG }, link: 'https://chentianxiong123.github.io/feed.xml', ariaLabel: 'RSS' },
     ],
     aside: false,
     showFireworksAnimation: false,
