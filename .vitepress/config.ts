@@ -63,14 +63,14 @@ export default async () => {
   }
 
   return defineConfig({
-    lang: 'en-US',
-    title: 'Clark Cui',
-    description: 'Home of Clark Cui',
+    lang: 'zh-CN',
+    title: '深念',
+    description: '深念',
     head: [
       ['link', { rel: 'icon', type: 'image/svg', href: '/horse.svg' }],
-      ['meta', { name: 'author', content: 'Clark Cui' }],
-      ['meta', { property: 'og:title', content: 'Home' }],
-      ['meta', { property: 'og:description', content: 'Home of Clark Cui' }],
+      ['meta', { name: 'author', content: '深念' }],
+      ['meta', { property: 'og:title', content: '深念' }],
+      ['meta', { property: 'og:description', content: '深念' }],
     ],
     lastUpdated: false,
     themeConfig: themeConfig as any,

@@ -2,9 +2,9 @@
   <div class="about-page">
     <div class="about-content">
       <div class="about-avatar">
-        <img src="/avator.png" alt="Clark Cui" />
+        <img src="/avator.png" alt="深念" />
       </div>
-      <h1 class="about-name">Clark Cui</h1>
+      <h1 class="about-name">深念</h1>
       <p class="about-bio">
         FrontEnd Developer / Web3 Developer
       </p>
