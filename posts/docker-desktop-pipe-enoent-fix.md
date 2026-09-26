@@ -230,7 +230,7 @@ if still_broken:
 | 查所有 Docker 进程 | `Get-Process \| Where-Object {$_.Name -match "Docker\|com\.docker"}` |
 | 杀前端子进程 | `Get-Process \| Where-Object {$_.Name -eq "Docker Desktop" -and $_.CommandLine -like "*--type=*"} \| Stop-Process -Force` |
 | 重启前端 | `Start-Process "C:\Program Files\Docker\Docker\frontend\Docker Desktop.exe"` |
-| 看挂掉的容器 | `docker ps -a --format "table {{.Names}}\t{{.Status}}"` |
+| 看挂掉的容器 | `docker ps -a --format "table &#123;&#123;.Names&#125;&#125;\t&#123;&#123;.Status&#125;&#125;"` |
 | 启动容器 | `docker start <name>` |
 | 验证端口 | `curl http://127.0.0.1:<port>/` |
 

@@ -20,7 +20,7 @@ onContentUpdated(() => {
   const gitalk = new Gitalk({
     clientID: 'a8430bf8a0464113ee24',
     clientSecret: 'df4cbf03c4ceca8a39076e6b7a0fb878e55534e2',
-    repo: 'blog-comments',
+    repo: 'vitepress-blog-zaun',
     owner: 'chentianxiong123',
     admin: ['chentianxiong123'],
     id: location.pathname.substring(0, 50),
