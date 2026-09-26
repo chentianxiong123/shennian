@@ -6,7 +6,7 @@ import MarkdownIt from 'markdown-it'
 import type { FeedOptions, Item } from 'feed'
 import { Feed } from 'feed'
 
-const DOMAIN = 'https://clarkcui.men'
+const DOMAIN = 'https://chentianxiong123.github.io'
 
 const AUTHOR = {
   name: '深念',
