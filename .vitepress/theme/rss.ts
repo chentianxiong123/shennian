@@ -9,14 +9,14 @@ import { Feed } from 'feed'
 const DOMAIN = 'https://clarkcui.men'
 
 const AUTHOR = {
-  name: 'Clark Cui',
+  name: '深念',
   email: 'rongchuancui@gmail.com',
   link: DOMAIN,
 } as const
 
 const FEED_OPTIONS: FeedOptions = {
-  title: 'Clark Cui',
-  description: "Clark Cui's Blog",
+  title: '深念',
+  description: "深念's Blog",
   id: `${DOMAIN}/`,
   link: `${DOMAIN}/`,
   copyright: 'MIT License',
