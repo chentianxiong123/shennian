@@ -5,13 +5,9 @@
         <img src="/avator.png" alt="深念" />
       </div>
       <h1 class="about-name">深念</h1>
-      <p class="about-bio">
-        技术极客
-      </p>
+      <p class="about-bio"></p>
       <div class="about-desc">
-        <p>
-          深耕全栈与 Linux 底层，爱折腾、爱钻研，把复杂问题拆成能落地的东西。
-        </p>
+        <p></p>
       </div>
     </div>
   </div>
