@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <span class="hero-title">深念</span>
+    <img src="/avator.png" width="135" height="135" class="avator" />
   </div>
 </template>
 <script lang="ts" setup>
@@ -12,10 +12,20 @@
   justify-content: center;
   height: 300px;
 }
-.hero-title {
-  font-size: 2.6em;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  color: var(--vp-c-text-1);
+.avator {
+  border-radius: 50%;
+  border: 5px solid var(--vp-avator-border);
+}
+
+@keyframes avator-transform {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.avator:hover {
+  animation: 5s linear 0s infinite avator-transform;
 }
 </style>
