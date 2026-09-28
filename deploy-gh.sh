@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # 深念博客一键部署到 GitHub Pages
-# 与 deploy.sh (Cloudflare Pages) 区分：
-#   deploy.sh       →  Cloudflare Pages (shennian.pages.dev)  base=/
+# 与 deploy-cf.sh (Cloudflare Pages) 区分：
+#   deploy-cf.sh      →  Cloudflare Pages (shennian.pages.dev)  base=/
 #   deploy-gh.sh    →  GitHub Pages (chentianxiong123.github.io/shennian/)  base=/shennian/
 # 用法: ./deploy-gh.sh
 #
