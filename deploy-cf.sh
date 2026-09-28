@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# 深念博客一键部署到 Cloudflare Pages
-# 用法: ./deploy.sh
+# 深念博客一键部署到 Cloudflare Pages (deploy-cf.sh)
+# 用法: ./deploy-cf.sh
 set -e
 cd "$(dirname "$0")"
 

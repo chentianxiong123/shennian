@@ -73,6 +73,7 @@ export default async () => {
     lang: 'zh-CN',
     title: '深念',
     description: '深念',
+    base: process.env.VITEPRESS_BASE || '/',
     head: [
       ['link', { rel: 'icon', type: 'image/svg', href: '/horse.svg' }],
       ['meta', { name: 'author', content: '深念' }],
