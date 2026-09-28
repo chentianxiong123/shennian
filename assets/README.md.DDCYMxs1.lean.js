@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as e,a4 as t}from"./chunks/framework.vNSRaLQv.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),l={name:"README.md"};function n(h,i,p,o,r,d){return a(),e("div",null,[...i[0]||(i[0]=[t("",10)])])}const u=s(l,[["render",n]]);export{c as __pageData,u as default};
